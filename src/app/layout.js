@@ -20,6 +20,7 @@ export default function RootLayout({ children }) {
           <nav className="">
             <ul className="flex gap-5 my-5 p-4">
               <li><CustomLink path="/">Home</CustomLink></li>
+              <li><CustomLink path="/blogs">Blogs</CustomLink></li>
               <li><CustomLink path="/analytics">Analytics</CustomLink></li>
               <li><CustomLink prefetch={false}  path="/settings">Settings</CustomLink></li>
               <li><CustomLink prefetch={false}  path="/heavy">Heavy</CustomLink></li>
