@@ -1,6 +1,7 @@
 
 
 export default function DashboardLayout({ children }) {
+  throw new Error("error in dashboard layout")
   return (
     <>
    <div className="mt-8">

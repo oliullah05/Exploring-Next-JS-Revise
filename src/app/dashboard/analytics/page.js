@@ -4,6 +4,7 @@ export const metadata = {
   };
 
 const Analytics = () => {
+    throw new Error("Error from analytices")
     return (
         <div className='p-4'>
             <h1 className='text-2xl text-center'>This is Analytics</h1>

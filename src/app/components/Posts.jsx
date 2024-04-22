@@ -1,7 +1,7 @@
 const fetchPost = async()=>{
-    await new Promise(resolve=>{
+    await new Promise((resolve,reject)=>{
         setTimeout(() => {
-            resolve()
+            reject()
         }, 2000);
     })
     return "here are my posts"
